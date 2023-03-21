@@ -1,0 +1,118 @@
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+}
+
+	
+body { overflow-x: hidden; }
+/*FONTES ----------------------------------------------------------------------------------------------------------*/
+header{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-variant: small-caps;
+}
+
+header >p{
+    font-style: italic;
+}
+
+main >p{
+    font-family: 'Caveat', cursive;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER ----------------------------------------------------------------------------------------*/
+header{
+    background-color: black;
+    padding: 50px
+}
+
+header >h1{
+    padding-top: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 6em;
+}
+
+header >p{
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 2em;
+}
+
+a#milton-duarte{
+    color: white;
+    text-decoration: none;
+}
+
+a#milton-duarte:hover{
+    text-decoration: underline;
+}
+
+/*MAIN -------------------------------------------------------------------------------------------------*/
+main >p{
+    font-size: clamp(1em, 1.5em + 3vw , 3.5em);
+    /*font-size: 3.5em;*/
+    font-weight:500;
+    padding: 10vh 10px;
+    line-height: 1.5em;
+}
+
+p.paragrafo-imagem{
+    font-size: clamp(1em, 1.5em + 3vw , 3.5em);
+    /*font-size: 3.5em;*/
+    font-weight:500;
+    font-family: 'Caveat', cursive;
+    color: white;
+    width: fit-content;
+    padding: 10vh 10px;
+    background-color: rgba(0, 0, 0, 0.400);
+    line-height: 1.5em;
+}
+
+
+div#imagem-joaninha{
+    background-image: url(./pacote-d012/imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 25px ;
+    border: 1px solid rgba(0, 0, 0, 0.500);
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.500);
+}
+
+div#imagem-folhas{
+    background-image: url(./pacote-d012/imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 25px ;
+    border: 1px solid rgba(0, 0, 0, 0.500);
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.500);
+}
+
+/*FOOTER ----------------------------------------------------------------------------------------------------------*/
+footer{
+    background-color: black;
+    margin: -10px;
+}
+
+footer >p{
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 7px;
+}
+
+a#github{
+    text-decoration: none;
+    color: white;
+}
+
+a#github:hover{
+    text-decoration: underline;
+}
